@@ -3,8 +3,16 @@
 **AutoDub** is an AI-powered video dubbing and localization tool.
 It can translate videos into different languages, generate dubbed audio with customizable voices, and automatically create subtitles.
 
-## Installation
 
+## Before Installation
+
+We recommend creating a clean Python environment before installation.
+
+AutoDub is developed and tested with **Python 3.10**.  
+Please use **Python 3.10** to avoid potential dependency compatibility issues.
+
+
+## Installation
 ### 1. Clone the repository
 
 ```bash
@@ -65,7 +73,7 @@ The application will start the service and provide the web interface.
 
 ### Main Interface
 
-![Home](images/1.png)
+![Home](image/1.png)
 
 Configure the following parameters before starting the task:
 
@@ -130,7 +138,7 @@ Drag and drop a video into the upload area, or click the area to browse and sele
 
 ### Start Processing
 
-![Home](images/2.png)
+![Home](image/2.png)
 
 After configuring all parameters, click **Start**.
 
@@ -146,7 +154,7 @@ Processing time depends on:
 
 ### First Launch
 
-![Home](images/3.png)
+![Home](image/3.png)
 
 The first launch may take significantly longer because the required AI models will be downloaded automatically.
 
@@ -156,7 +164,7 @@ Please be patient during this process.
 
 ### Download the Result
 
-![Home](images/4.png)
+![Home](image/4.png)
 
 When processing is complete, click **Download** to save the generated video.
 
